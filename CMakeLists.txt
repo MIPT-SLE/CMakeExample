@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-SET(MODULE_NAME cmake_example)
-project(${MODULE_NAME})
+project(cmake_example)
 
 add_subdirectory(src)
 
