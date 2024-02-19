@@ -1,8 +1,6 @@
 if (USE_GLOB)
     file(GLOB_RECURSE SOURCES *.hpp *.cpp)
-    add_library(${MODULE_NAME} STATIC ${SOURCES})
-else ()
-    set(HEADERS
+    add_library(${PROJECT_NAME} STATIC ${SOURCES}) else () set(HEADERS
         cmake_example/Header.hpp
         )
 
